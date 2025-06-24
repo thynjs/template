@@ -1,0 +1,20 @@
+<script>
+  const [count, setCount] = $state(0);
+  $effect(() => {
+	console.log(`Count is ${count()}`);
+  });
+</script>
+
+<button :onclick="() => setCount(c => c + 1)">
+  Count: {{ count() }}
+</button>
+
+<style>
+  button {
+	background: #333;
+	color: #fff;
+	border: 0;
+	padding: 5px 10px;
+	cursor: pointer;
+  }
+</style>
