@@ -13,6 +13,6 @@
   },
   "dependencies": {
     "@thyn/core": "^0.0.2",
-    "@thyn/vite-plugin": "^0.02"
+    "@thyn/vite-plugin": "^0.0.2"
   }
 }
