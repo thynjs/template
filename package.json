@@ -12,7 +12,7 @@
     "vite": "^6.3.5"
   },
   "dependencies": {
-    "@thyn/core": "^0.0.2",
-    "@thyn/vite-plugin": "^0.0.2"
+    "@thyn/core": "^0.0.17",
+    "@thyn/vite-plugin": "^0.0.17"
   }
 }
